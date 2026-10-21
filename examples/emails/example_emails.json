@@ -1,0 +1,89 @@
+{
+ "messages": [
+  {
+   "id": "ex-001",
+   "thread_id": "t1",
+   "sender": "receipts@uber.example.com",
+   "subject": "Your Tuesday trip receipt",
+   "date": "2026-10-06T14:00:00Z",
+   "snippet": "EXAMPLE DATA",
+   "body": "EXAMPLE DATA\nThanks for riding\nTrip fare $18.40\nTax $1.47\nTotal $19.87\n",
+   "attachments": []
+  },
+  {
+   "id": "ex-002",
+   "thread_id": "t2",
+   "sender": "orders@cafe.example.com",
+   "subject": "Thank you for your purchase",
+   "date": "2026-09-20T09:00:00Z",
+   "snippet": "",
+   "body": "<html><body><p>Corner Bistro (EXAMPLE DATA)</p><table><tr><td>Lunch</td><td>&euro;12,00</td></tr><tr><td>VAT</td><td>2,40</td></tr><tr><td>Total EUR</td><td>14,40</td></tr></table></body></html>",
+   "attachments": []
+  },
+  {
+   "id": "ex-003",
+   "thread_id": "t3",
+   "sender": "billing@cloudly.example.com",
+   "subject": "Cloudly invoice for September",
+   "date": "2026-09-03T08:00:00Z",
+   "snippet": "",
+   "body": "See attached invoice. EXAMPLE DATA",
+   "attachments": [
+    {
+     "filename": "example_invoice.pdf",
+     "path": "examples/emails/example_invoice.pdf"
+    }
+   ]
+  },
+  {
+   "id": "ex-004",
+   "thread_id": "t4",
+   "sender": "deals@shop.example.com",
+   "subject": "Save up to 50% off this weekend!",
+   "date": "2026-10-01T08:00:00Z",
+   "snippet": "",
+   "body": "Order now! Total savings $99.00",
+   "attachments": []
+  },
+  {
+   "id": "ex-005",
+   "thread_id": "t5",
+   "sender": "failed-payments@stripe.example.com",
+   "subject": "$5.00 payment to Example Co was unsuccessful",
+   "date": "2026-10-02T08:00:00Z",
+   "snippet": "",
+   "body": "Your receipt could not be issued. Amount $5.00",
+   "attachments": []
+  },
+  {
+   "id": "ex-006",
+   "thread_id": "t6",
+   "sender": "billing@saas.example.com",
+   "subject": "Your Example invoice is ready",
+   "date": "2026-10-04T08:00:00Z",
+   "snippet": "",
+   "body": "Invoice date 10/04/2026\nTotal Amount USD 0.00",
+   "attachments": []
+  },
+  {
+   "id": "ex-007",
+   "thread_id": "t7",
+   "sender": "receipts@old.example.com",
+   "subject": "Your receipt",
+   "date": "2026-01-02T08:00:00Z",
+   "snippet": "",
+   "body": "Total $10.00",
+   "attachments": []
+  },
+  {
+   "id": "ex-001",
+   "thread_id": "t1",
+   "sender": "receipts@uber.example.com",
+   "subject": "Your Tuesday trip receipt",
+   "date": "2026-10-06T14:00:00Z",
+   "snippet": "duplicate of ex-001",
+   "body": "Total $19.87",
+   "attachments": []
+  }
+ ]
+}
